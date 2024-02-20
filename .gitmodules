@@ -1,0 +1,3 @@
+[submodule "campus-map"]
+	path = campus-map
+	url = https://github.com/KyleFC/KyleFC.github.io.git
