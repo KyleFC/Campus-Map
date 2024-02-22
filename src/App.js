@@ -1,7 +1,7 @@
 // App.js or your main component file
 
 import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer} from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import './App.css'; // your custom styles
 
