@@ -31,4 +31,4 @@ jobs:
         deploy_key: ${{ secrets.DEPLOY_KEY }}
         publish_dir: ./build
         publish_branch: gh-pages  # Ensure this matches the branch you want to deploy to
-        keep_files: true  # Set to false if you want a clean deploy every time
+        keep_files: false  # Set to false if you want a clean deploy every time
