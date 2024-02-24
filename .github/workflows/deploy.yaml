@@ -30,6 +30,6 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         deploy_key: ${{ secrets.DEPLOY_KEY }}
-        publish_dir: ./build
+        publish_dir: ./campus-map/build
         publish_branch: gh-pages  # Ensure this matches the branch you want to deploy to
         keep_files: false  # Set to false if you want a clean deploy every time
